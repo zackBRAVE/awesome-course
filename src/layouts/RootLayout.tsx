@@ -5,7 +5,7 @@ export function RootLayout() {
   return (
     <div className="flex h-full">
       <Navbar />
-      <div id="content-layout">
+      <div className="p-4">
         <Outlet />
       </div>
     </div>
